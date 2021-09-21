@@ -1,3 +1,6 @@
+import ClassComponent from './components/ClassComponent';
+import FunctionalComponent from './components/FunctionalComponent';
+
 import logo from './logo.svg';
 import './App.css';
 
@@ -18,6 +21,10 @@ function App() {
           Learn React
         </a>
       </header>
+      <div>
+        <ClassComponent />
+        <FunctionalComponent />
+      </div>
     </div>
   );
 }
